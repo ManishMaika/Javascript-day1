@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title> Radio Button Validation </title>
+</head>
+<body>
+<form name="myForm" onsubmit="return myFun()">
+
+		 yes<input type="radio" id="course" > 
+		 No<input type="radio" id="course1" > 
+         
+<span id="Message"> </span>
+    <div id="yes" style="visibility: hidden">
+        If yes,explain:
+        <input type="text" id="one" name="yes"><br>
+        What can we do to accomadate you?
+        <input type='text' id='two' name='acc'>
+    
+        
+        other 3<input type='text' id='other3' name='other3'><br>
+        other 4<input type='text' id='other4' name='other4'><br>
+    </div>
+<br>
+
+</form>
+</body>
+
+<script>
+    
+    function yesnoCheck() {
+    if (document.getElementById('yesCheck').checked) {
+        document.getElementById('ifYes').style.visibility = 'visible';
+    }
+    else document.getElementById('ifYes').style.visibility = 'hidden';
+
+}
+</script>
+</html>

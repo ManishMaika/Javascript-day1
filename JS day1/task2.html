@@ -1,0 +1,23 @@
+<html>
+<head>
+	
+</head>
+<body>
+<form name="myForm" onsubmit="return myFun()">
+    <p>Hello Team!</p>
+<br>
+<input type="submit" value="Click me"> 
+    <p id="message"></p>
+</form>
+</body>
+
+<script>
+function myFun() {
+	 
+		document.getElementById("message").style.fontSize="100px";
+        document.getElementById("message").innerHTML="Hello Team!";
+		return false;
+	}
+
+    </script>
+</html>

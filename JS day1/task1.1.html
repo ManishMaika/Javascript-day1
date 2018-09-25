@@ -1,0 +1,26 @@
+<html>
+<head>
+	
+</head>
+<body>
+<form name="myForm" onsubmit="return myFun()">
+    <p>Where is Hyderabad?</p>
+    <p>a.Telangana</p>
+    <p>b.Delhi</p>
+    <p>c.Kolkata</p>
+    
+<br>
+<input type="submit" value="check answer">
+    <p id="message"></p>
+</form>
+</body>
+
+<script>
+function myFun() {
+	 
+		document.getElementById("message").innerHTML ="Ans.Telangana";
+		return false;
+	}
+
+    </script>
+</html>

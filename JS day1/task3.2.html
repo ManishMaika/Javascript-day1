@@ -1,0 +1,38 @@
+<html>
+<head>
+	
+</head>
+<body>
+<form name="myForm" onclick="return myFun()">
+   Enter number<input type="number" id="num1" value=""><br>
+   Enter number<input type="number" id="num2" value="">
+    <p id="message"></p>
+ 
+<br>
+<input type="button" value="Add">
+<input type="button" value="Multiply">   
+    <p id="message1"></p>
+</form>
+</body>
+
+<script>
+function myFun() {
+	 
+var a=document.getElementById("num1").value;
+document.getElementById("message").innerHTML=Number(a)+Number(b);
+return false;
+    
+	}
+</script>
+    
+<script>
+    function myFun() {
+	 
+var b=document.getElementById("num2").value;
+document.getElementById("message1").innerHTML=Number(a)*Number(b);
+return false;
+
+    }
+</script>
+
+</html>

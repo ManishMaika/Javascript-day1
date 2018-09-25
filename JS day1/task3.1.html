@@ -1,0 +1,28 @@
+<html>
+<head>
+	
+</head>
+<body>
+<form name="myForm" onsubmit="return myFun()">
+   Enter number<input type="number" id="num1" value="">
+    
+ 
+<br>
+<input type="submit" value="Try it">
+    <p id="message"></p>
+</form>
+</body>
+
+<script>
+function myFun() {
+	 
+		
+        var a=document.getElementById("num1").value;
+   
+        document.getElementById("message").innerHTML=a*a;
+        
+		return false;
+	}
+
+    </script>
+</html>
